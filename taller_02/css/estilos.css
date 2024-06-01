@@ -5,13 +5,14 @@ h1 {
 }
 
 
-a{
 
-}
 
 .caja-enlace{
+    display: block;
+    width: 200px;
     border: 1px solid lightblue;
     padding: 5px;
     margin: 5px;
+
 
 }
