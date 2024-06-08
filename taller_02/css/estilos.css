@@ -5,10 +5,12 @@ h1 {
 }
 
 
-
+li.enlace{
+    display: inline-block;
+}
 
 .caja-enlace{
-    display: block;
+    display: inline-block;
     width: 200px;
     border: 1px solid lightblue;
     padding: 5px;
