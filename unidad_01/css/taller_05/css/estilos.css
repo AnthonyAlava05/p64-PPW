@@ -4,6 +4,10 @@ p{
     margin: 10px;
     font-size: 18px;
     background-color: lightblue;
+    width: 200;
 
 }
 
+.limpiar{
+    clear: both;
+}
