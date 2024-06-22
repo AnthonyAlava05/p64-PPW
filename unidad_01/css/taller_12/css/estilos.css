@@ -25,9 +25,7 @@
 
 
 
-.left {
-    grid-area: left;
-}
+
 
 .content {
     grid-area: content;
