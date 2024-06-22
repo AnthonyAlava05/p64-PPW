@@ -4,81 +4,72 @@
 
 .container {
     display: grid;
-    
-    gap: 5px;
-    grid-template-areas: "header header" "menu menu""content content" "footer footer";
+
+    grid-template-areas: "header header" "menu menu"  " content content" "footer footer";
+    grid-gap: 4px;
     height: 100vh;
 }
 
 .item {
-    background-color: lightskyblue;
-    padding: 90px;
+    background-color: dodgerblue;
+    padding: 65px;
     border: 1px solid lightgray;
 }
 
 .header {
-    grid-area:header;
-    
+    grid-area: header;
 }
-
 .menu{
     grid-area: menu;
 }
 
 
+
+.left {
+    grid-area: left;
+}
+
 .content {
-    background-color: lightskyblue;
     grid-area: content;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.row {
-    display: flex;
-    flex-direction: row; 
-  }
-
 
 .footer {
     grid-area: footer;
 }
 
-
-
-.cuadro1{
-    background-color: yellow;
+.cuadro1 {
     
-    height: 100px;
-    width: 380px;
+    background-color: yellow;
+    height: 200px;
+    width: 560px;
     padding: 20px;
+    
 }
+.row{
+    display: flex;
+    flex-direction: row;
 
+}
 
 .cuadro2{
     background-color: gray;
-    
-    height: 25px;
-    width: 100px;
-    padding: 20px;
-    
+    height: 80px;
+    width: 200px;
 
 }
 .cuadro3{
-    
     background-color: blue;
-    
-    height: 25px;
-    width:100px;
-    padding: 20px;
-    
+    height: 80px;
+    width: 200px;
 
 }
 .cuadro4{
     background-color: pink;
-    
-    height: 25px;
-    width: 100px;
-    padding: 20px;
-    
+    height: 80px;
+    width: 200px;
 
 }
