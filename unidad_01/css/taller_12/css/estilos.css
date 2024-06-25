@@ -1,5 +1,6 @@
 * {
     margin: 0;
+   
   
 }
 
@@ -10,6 +11,7 @@
     grid-template-rows: 120px 60px 455px 60px; 
     grid-gap: 2px;
     height: 100vh;
+    
 }
 
 .item {
@@ -27,6 +29,7 @@
     justify-content: center;
     color: white;
     font-size: 20px;
+    border: 2px solid black;
     
 }
 
@@ -38,7 +41,7 @@
     padding: 10px;
     color: white;
     font-size: 20px;
-    
+    border: 2px solid black;
 }
 
 
@@ -48,6 +51,7 @@
     text-align: left;
     color: white;
     font-size: 20px;
+    border: 2px solid black;
     
 }
 
@@ -60,6 +64,7 @@
     justify-content: center;
     color: white;
     font-size: 20px;
+    border: 2px solid black;
 }
 
 .cuadro1 {
