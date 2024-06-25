@@ -1,73 +1,114 @@
 * {
-    margin: 0px;
+    margin: 0;
+  
 }
 
 .container {
     display: grid;
 
     grid-template-areas: "header header" "menu menu"  " content content" "footer footer";
-    grid-gap: 4px;
+    grid-template-rows: 120px 60px 455px 60px; 
+    grid-gap: 2px;
     height: 100vh;
 }
 
 .item {
     background-color: dodgerblue;
-    padding: 65px;
     border: 1px solid lightgray;
-}
-
-.header {
-    grid-area: header;
-}
-.menu{
-    grid-area: menu;
-}
-
-
-
-
-
-.content {
-    grid-area: content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0;
+   
     
 }
 
+.header {
+    padding: 50px;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.menu{
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.content {
+    padding: 20px;
+    grid-area: content;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+
 .footer {
     grid-area: footer;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
 }
 
 .cuadro1 {
     
     background-color: yellow;
     height: 200px;
-    width: 560px;
-    padding: 20px;
+    width: 608px;
+    border: 2px solid black;
+    
     
 }
 .row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+.cuadrogrande{
+    padding: 50px;
+    grid-area: cuadrogrande;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 
 }
 
 .cuadro2{
-    background-color: gray;
+    background-color: lightgray;
     height: 80px;
     width: 200px;
+    border: 2px solid black;
 
 }
 .cuadro3{
-    background-color: blue;
+    background-color: darkblue;
     height: 80px;
     width: 200px;
+    border: 2px solid black;
 
 }
 .cuadro4{
-    background-color: pink;
+    background-color: violet;
     height: 80px;
     width: 200px;
+    border: 2px solid black;
 
 }
+
