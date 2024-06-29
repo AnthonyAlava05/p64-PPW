@@ -1,0 +1,12 @@
+.container{
+    position: relative;
+
+}
+
+#cajita{
+    width: 10px;
+    height: 10px;
+    border-radius: 58%;
+    position: absolute;
+    background-color: chartreuse;
+}
