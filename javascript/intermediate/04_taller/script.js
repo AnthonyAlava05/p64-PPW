@@ -27,3 +27,4 @@ suma2(100,200)
 const suma3 =(a,b) => a+b
 console.log(suma3(10000,20000))
 
+
