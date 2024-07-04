@@ -5,7 +5,8 @@
 .container {
     position: relative;
     display: grid;
-    grid-template-rows: 100px 75px auto ; 
+    grid-template-rows: 100px 75px auto  ; 
+    grid-template-columns: 450px auto;
     grid-template-areas: "header header" "opciones opciones""left content" ;
     grid-gap: 1px;
     height: 150vh;
@@ -19,6 +20,7 @@
 
 .header {
     background-color: cadetblue;
+    border: 0px cadetblue;
     padding:25px;
     grid-area: header;
     font-size: 40px;
@@ -28,26 +30,34 @@
 }
 
 .opciones{
+    padding: 10px;
     grid-area: opciones;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(102, 188, 209);
+    background-color: hsl(0, 0%, 25%);
+
 }
 
 
+.a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 
+}
 
 .enlaces{
-    background-color: black;
+    list-style: none;
+    background-color:lightslategray;
     display: flex;
     flex-direction: column;
     width: 200px;
-    border: 1px solid lightblue;
+    border: 1px solid black;
     padding: 5px;
-    margin: 5px;
-    font-weight: bold;
-    text-decoration: none;
+    gap: 0px;
+    text-align: center;
+    height: 25px;
 }
 
 .left {
@@ -55,14 +65,15 @@
     background-color: lightgrey;
     padding: 20px;
     
+    
 }
 
 .content {
     grid-area: content;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
     font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+    
     
 }
 
@@ -74,8 +85,9 @@
 }
 
 .contenido-left{
+    line-height: 1.5;
     font-style: italic;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
 }
@@ -87,6 +99,21 @@
 }
 
 .contenido-personal{
-    text-align: justify;
+    text-align: left;
     font-weight: 100;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+
+}
+
+.items{
+    font-size: 20px;
+    font-style: normal;
+    line-height: 2;
+    gap: 2px;
+    text-align: left;
 }

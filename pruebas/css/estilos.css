@@ -1,26 +1,40 @@
 
-* {
-    background-color: rgb(155, 209, 206);
+body{
+    margin: 0px;
 }
 
-.nombre {
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
     text-align: center;
-    margin: 10px 10px;
-    padding: 10px 10px;
 }
 
-.imagen {
-    padding: 10px 10px;
-    text-align: left;
+.navbar ul{
+    list-style: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 
-.container  {
-    display: flex;
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    
 }
 
-.item1, .item2, .item3, .item4 {
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(44, 132, 204);
-    border-radius: 8px;
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+
+}
+
+.navbar li{
+    float: left;
 }
