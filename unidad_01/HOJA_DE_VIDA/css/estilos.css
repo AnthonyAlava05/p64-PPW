@@ -18,7 +18,7 @@
     border: 0px cadetblue;
     padding:25px;
     grid-area: header;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     font-style: italic ;
     font-weight: bold;
@@ -65,7 +65,7 @@
 
 .content {
     grid-area: content;
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
