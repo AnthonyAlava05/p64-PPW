@@ -1,13 +1,3 @@
-const image = document.getElementById('zoom-image');
-
-image.addEventListener('mouseover', () => {
-    image.classList.add('zoom');
-});
-
-image.addEventListener('mouseout', () => {
-    image.classList.remove('zoom');
-});
-
 document.addEventListener('DOMContentLoaded', () => {
     const menuItems = document.querySelectorAll('.enlaces');
 
@@ -20,4 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.transform = 'scale(1)';
         });
     });
+});
+
+const image = document.getElementById('zoom-image');
+
+image.addEventListener('mouseover', () => {
+    image.classList.add('zoom');
+});
+
+image.addEventListener('mouseout', () => {
+    image.classList.remove('zoom');
 });

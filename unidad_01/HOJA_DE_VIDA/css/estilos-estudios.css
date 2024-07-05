@@ -53,6 +53,7 @@
     gap: 0px;
     text-align: center;
     height: 25px;
+    transition: transform 0.3s ease; 
 }
 
 .left {
@@ -145,3 +146,10 @@
     margin-bottom: 10px;
 }
 
+#zoom-image {
+    transition: transform 0.3s ease;
+}
+
+#zoom-image.zoom {
+    transform: scale(1.5);
+}
