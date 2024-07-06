@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript DOM</title>
+        
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <script type="text/JavaScript" src="js/script.js"> </script>    
+</head>
+    <body>
+        <section class="container">
+            <header class="item header">
+                <h1>Tus recetas favoritas aqui</h1>
+            </header>
+            <div class="item left">
+                <div class="titulo">Ingresa tus recetas!!!</div>
+                <p>Primero ingresa el nombre de la receta</p>
+                <p>Luego ingresa una pequeña descripción de la receta</p>
+                <p>Puedes eliminar las recetas con sus descripciones</p>
+                <input class="input" type="text" value="" id="texto">
+                <button class="item-button" onclick="cargar_elementos()">Agregar nombre de la receta</button>
+                <input class="input2" type="text" value="" id="texto2">
+                <button class="item-button" onclick="cargar_elementosD()">Agregar Descripción de la receta</button>
+                <button class="item-button" onclick="eliminar_elementos()">Eliminar recetas y descripciones</button>
+            </div>
+            <main class="item content" id="content"></main>
+        </section>
+    </body>
+</html>
