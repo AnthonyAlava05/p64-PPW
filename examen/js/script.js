@@ -1,7 +1,7 @@
 var contador=1
 
 function cargar_elementos(){
-    var content=document.getElementById("content")
+    var content=document.getElementById("main")
     var texto= document.getElementById("texto")
 
     var div = document.createElement("div")
@@ -14,7 +14,7 @@ function cargar_elementos(){
 }
 
 function cargar_elementosD(){
-    var content=document.getElementById("content")
+    var content=document.getElementById("main")
     var texto= document.getElementById("texto2")
 
     var div = document.createElement("div")
@@ -28,7 +28,7 @@ function cargar_elementosD(){
 
 
 function eliminar_elementos(){
-    var content = document.getElementById("content")
+    var content = document.getElementById("mainb")
     content.removeChild(content.lastElementChild)
     contador --
 }
