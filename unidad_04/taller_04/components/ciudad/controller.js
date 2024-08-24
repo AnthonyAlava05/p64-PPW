@@ -1,6 +1,6 @@
 const storage = require('./storage')
 
-function insertar_pais( dato ) {
+function insertar_ciudad( dato ) {
     return new Promise( (resolve, reject) => {
         if (!dato.nombre ) {
             reject( 'Los datos se encuentran incompletos.' )
@@ -10,7 +10,7 @@ function insertar_pais( dato ) {
     } )
 }
 
-function obtener_pais( dato ) {
+function obtener_ciudad( dato ) {
     return new Promise( (resolve, reject) => {
         if (!dato) {
             reject( 'No existen datos' )
@@ -21,6 +21,6 @@ function obtener_pais( dato ) {
 }
 
 module.exports = {
-    insertar_pais,
-    obtener_pais
+    insertar_ciudad,
+    obtener_ciudad
 }
