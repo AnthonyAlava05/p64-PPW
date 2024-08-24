@@ -21,3 +21,4 @@ const ciudad_schema = new schema({
 
 const model = mongoose.model('Ciudad', ciudad_schema)
 module.exports = model
+
