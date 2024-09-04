@@ -1,6 +1,6 @@
 const config = {
     PORT: 3000,
-    DB_URL: 'mongodb+srv://freefire01:freefire01@cluster0.g54jr2g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    DB_URL: 'mongodb+srv://anthony1:12345@practica6.hjh57.mongodb.net/node?retryWrites=true&w=majority&appName=Practica6'
     
 }
 
